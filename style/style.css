@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+ }
+ 
+ a{
+     text-decoration: none;
+ }
+ 
+ .container {
+     width: 90%;
+     margin: 5px auto;
+ }
+ 
+ .logo{
+     font-weight: bolder;
+     font-size: 20px;
+ }
+ 
+ .tm {
+     font-size: 6px;
+     font-weight: 400;
+ }
+ 
+ .navbar, .navbar-nav, .banner, .blog-list , .article-post-header{
+     display: flex;
+     justify-content: space-between;
+ }
+ .navbar {
+     padding: 15px 0px;
+ }
+ .navbar-nav {
+     width: 300px;
+ }
+ 
+ .banner {
+     flex-direction: column;
+     justify-content: center;
+     width: 100%;
+     height: 80vh;
+     background-image: url('/images/1.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+ .header-content {
+     width: 520px;
+ }
+ 
+ .title, .description {
+     margin-bottom: 10px;
+ }
+ 
+ .title {
+    margin-top: 10px;
+     font-size: 25px;
+ }
+ 
+ .sec {
+     display: inline-block;
+     padding: 10px 30px;
+     background-color: rgb(6, 24, 48);
+     color: #fff;
+     border-radius: 5px;
+ }
+ .btn {
+    display: inline-block;
+    padding: 4px 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 3px solid purple;
+}
+
+.art-header{
+    font-size: 26px;
+}
+.bt{
+    padding: 10px 30px;
+    background-color: rgb(6, 24, 48);
+    color: #fff;
+    border-radius: 5px; 
+}
+ /* Blog Content Styling */
+
+ .blog-content  {
+    margin: 30px 0 ;
+     width: 36%;
+     height: 500px;
+ }
+ 
+ .recent-posts {
+    margin: 30px 0 ;
+     width: 25%;
+     height: 474px;
+ }
+ .recent-post-item{
+    margin: 19px 0;
+ }
+ .recent-posts-title{
+    font-size: 22px;
+    text-transform: capitalize;
+
+ }
+ /* Image for blog card */
+ .img, .img-2 {
+     border-radius: 10px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 300px;
+ }
+ 
+ .img {
+     background-image: url('/images/blog-card1.jpg');
+ }
+ .img-2 { 
+     background-image: url('/images/blog-card2.jpg');
+ }
+ 
+ 
+ .desc-p {
+     margin: 20px 0;
+ }
+ .art-desc {
+    margin: 14px 0;
+    font-size: 16px;
+}
+ 
+ /* Article section */
+ .article-post-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 ;
+ }
+
+.article-post{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* article review img path */
+.art-img {
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+.art-img1{
+    background-image: url(/images/article-post1.jpg);
+    margin-right: 7px;
+}
+.art-img2{
+    background-image: url(/images/article-post2.jpg);
+}
+.art-img3{
+    background-image: url(/images/article-post3.jpg);
+}
+.art-img4{
+    background-image: url(/images/article-post4.jpg);    
+}
+.article-post-item{
+height: 400px;
+}
+.article-review-title{
+   margin-top: 20px;
+   text-transform: capitalize;
+   font-size: 17px;
+}
+.article-review-title , .art-desc , .art-btn{
+    padding: 2px;
+    margin-left: 3px;
+}
+
+/* Benefit section */
+.benefit-header{
+    font-size: 20px;
+}
+.benefit-imgs{
+    width: 60%;
+    float: left;
+    height: 430px;
+}
+.benefit-header{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.Uv-benefit-content img{
+    float: right;
+    border-radius: 20px;
+}
+.Uv-benefit-content{
+    height: 200px;
+}
+.benefit-cont{
+    width: 40%;
+    display: inline-block;
+}
+.art-itm{
+    margin: 20px 0;
+    margin-right: 36px;
+}
+.ai{
+    margin-bottom: 50px;
+}
+.art-itm p{
+    word-spacing: 4px;
+    margin-bottom: 20px;
+
+}
+
+/* Footer Section */
+.Uv-footer-content{
+    background-color: rgb(63, 63, 148);
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    padding-top: 80px;
+    text-align: center;
+    align-content: space-around;
+    text-transform: capitalize;
+} 
